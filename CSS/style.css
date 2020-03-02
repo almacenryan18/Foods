@@ -1,6 +1,17 @@
 *{
 padding: 0px;
 margin: 0px;	
+
+}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-image: url(../IMAGES/cone.png), url(../IMAGES/grey.png);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
 }
 .logo{
 	margin-top: 0px;
@@ -15,6 +26,9 @@ margin: 0px;
 	height: 110px;
 	background-color: #FFE5B4;
 	line-height: 70px;
+	position: fixed;
+		overflow: hidden;
+
 }
 .navi ul{
 	margin-right: 30px;
@@ -37,20 +51,13 @@ margin: 0px;
 .back{
 	width: 100%;
 	height: 100vh;
-	background-repeat: no-repeat, repeat;
-	background-image: url(../IMAGES/cone.png), url(../IMAGES/grey.png);
-	background-blend-mode: lighten;
-	background-size: cover;
-	background-attachment: fixed;
-}
-.active{
-	background-color: #ffcba4;
 }
 .cen{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+
 }
 .cen h1{
 	font-size: 100px;
@@ -71,4 +78,155 @@ margin: 0px;
 }
 .btn:hover{
 	background-color: #ffae71;
+}
+.scr{
+	width: 100%;
+	height: 150px;
+	float: left;
+}
+.two{
+	width: 100%;
+	min-height: 100vh;
+	float: left;
+
+}
+.space{
+	width: 100%;
+	height: 12%;
+	float: left;
+}
+.flavor{
+	width: 100%;
+	min-height: 10%;
+	float: left;
+	text-align: center;
+}
+.flavor h1{
+	font-size: 75px;
+	font-family: Helvetica Neue;
+}
+.fla{
+	width: 100%;
+	min-height: 50vh;
+	float: left;
+}
+.left{
+	float: left;
+	width: 10%;
+	min-height: 50vh;
+}
+.right{
+	float: right;
+	width: 10%;
+	min-height: 50vh;
+}
+.mid{
+	width: 80%;
+	min-height: 50vh;
+	float: left;
+}
+.imgg{
+	width: calc(100%/4);
+	height: 650px;
+	float: left;
+	background-color: #FFE5B4;
+	font-family: Helvetica Neue;
+	text-align: center;
+}
+.imgg img{
+	width: 90%;
+	margin: 5%;
+	height: 500px;
+}
+.about{
+	width: 100%;
+	min-height: 50vh;
+	float: left;
+	background-color: #f3fdaf;
+}
+.int{
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+.int h1{
+	margin-left: 100px;
+	font-size: 70px;
+	font-family: Helvetica Neue;
+}
+.par{
+	width: 100%;
+	min-height: 100vh;
+	float: left; 
+}
+.par p{
+	margin-left: 200px;
+	font-size: 50px;
+}
+.lef{
+	float: left;
+	width: 10%;
+	min-height: 40vh;
+}
+.rig{
+	float: right;
+	width: 10%;
+	min-height: 40vh;
+}
+.part{
+	float: left;
+	width: 80%;
+	min-height: 40vh;
+}
+.a{
+	width: calc(100%/2);
+	min-height: 40vh; 
+	float: left;
+}
+.a img{
+	margin: 3%;
+	width: 95%;
+	height: 350px;
+}
+.end{
+	width: 100%;
+	min-height: 120px;
+	float: left;
+	background-color: #FFE5B4;
+}
+.le{
+	width: 35%;
+	height: 120px;
+	float: left;
+	text-align: right;
+}
+.le h1{
+	font-size: 80px;
+	margin-right: 50px;
+	color: grey;
+}
+.ri{
+	width: 35%;
+	height: 120px;
+	float: right;
+	text-align: left;
+}
+.ri h1{
+	font-size: 80px;
+	margin-left: 50px;
+	color: grey;
+}
+.last{
+	width: 30%;
+	height: 120px;
+	float: left;
+}
+.pig{
+	width: calc(100%/4);
+	height: 120px;
+	float: left;
+}
+.pig img{
+	width: 60%;
+	margin: 10%;
 }
