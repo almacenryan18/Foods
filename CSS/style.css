@@ -14,12 +14,12 @@ body{
   	background-size: cover;
 }
 .logo{
-	margin-top: 0px;
-	margin-left: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 .logo img{
-	width: 180px;
-	height: 120px;
+	width:120px;
+	height: 100px;
 }
 .navi{
 	width: 100%;
@@ -48,6 +48,11 @@ body{
 .navi ul li:hover{
 	background-color: #ffae71;
 }
+.imgg:hover{
+	background-color:#ffae71;
+	transition: 0.5s ease;
+}
+
 .back{
 	width: 100%;
 	height: 100vh;
